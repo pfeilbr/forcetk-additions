@@ -8,7 +8,7 @@ forcetk.Client.prototype.queryAll = function(soql, callback, error) {
     var that = this;
 
     // first level call if previous result not on callback
-    if (callback.result) {
+    if (!callback.result) {
 
         return that.query(soql, function(result) {
             if (result.done) {
