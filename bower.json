@@ -1,0 +1,26 @@
+{
+  "name": "forcetk-additions",
+  "main": "forcetk-additions.js",
+  "version": "0.5.1",
+  "homepage": "https://github.com/pfeilbr/forcetk-additions",
+  "authors": [
+    "Brian <brian.pfeil@gmail.com>"
+  ],
+  "description": "extensions to the ForceTK javascript library",
+  "keywords": [
+    "salesforce",
+    "forcetk",
+    "force.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ForceTK": "*"
+  }
+}
